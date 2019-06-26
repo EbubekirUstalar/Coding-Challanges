@@ -1,17 +1,20 @@
 def same_vowel_group(w):
 	first = set(w[0]) & set('aeiou')
 	return [i for i in w if set(i) & set('aeiou') == first]
-  
+
+###################################################
   
 def same_vowel_group(w):
   return [i for i in w if set(j for j in i if j in 'aeiou')==set(j for j in w[0] if j in 'aeiou')]
   
-  
+###################################################
+
 def same_vowel_group(w):
   v = sorted(list(set([i for i in w[0] if i in 'aeiou'])))
   return [i for i in w if sorted(list(set([x for x in i if x in 'aeiou']))) == v]
   
-  
+###################################################
+
 def same_vowel_group(w):
 	vowels = 'aeiou'
 	v = set([i for i in w[0] if i in vowels])
@@ -26,7 +29,8 @@ def same_vowel_group(w):
 		del to_delete[-1]
 	return w
   
-  
+###################################################
+
 def same_vowel_group(w):
 	result = []
 	word_zero = set()
