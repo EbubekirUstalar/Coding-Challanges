@@ -30,13 +30,9 @@ def same_vowel_group(w):
 
     if(len(selectedWords) == 0):
         selectedWords.append(w[0])
-
-    print(selectedWords)
+        
     return sorted(selectedWords, reverse = True)
  
 w = ['bot', 'bottom', 'hoops']                                       ## test list
             
 print(same_vowel_group(w))                                           ## output
-
-
-
