@@ -1,11 +1,11 @@
 
-First of all I looked some examples over internet.
+First of all I looked some examples over internet. 
 
 I wanted to find a nice web site that has both questions and their solutions so that I can evaluate myself.
 
 But without wasting much time, I did my first challenge on https://edabit.com/challenge/uwFHSRewNpmBNvbME
 
-
+I am looking only "advanced problems" segment.
 
 
 Description
