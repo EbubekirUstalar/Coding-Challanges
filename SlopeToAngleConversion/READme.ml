@@ -29,3 +29,7 @@ Notes
 -All values returned should be rounded to the nearest whole number.
 -The value to return must be strictly between 0 and 180.
 -All inputs will be valid integer values.
+
+
+NOTES TO ME:
+I did not know we can import libraries, I spent most of the time searching for arctan and conversion.
