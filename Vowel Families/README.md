@@ -30,9 +30,10 @@ same_vowel_group(["hoops", "chuff", "bot", "bottom"]) ➞ ["hoops", "bot", "bott
 Notes
 - Words will contain only lowercase letters, and may contain whitespaces.
 - Frequency does not matter (e.g. if "loopy", then you can include words with any number of o's, so long as they only contain o's, and not any other vowels).
-
-
-
-
 - The question is that we need to find words that has the same vowels.
-- One word can contain the other one.
+
+
+-----
+
+Notes to me
+- I did not know what set function is and what we can do with it. I need to look for that.
